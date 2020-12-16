@@ -1,0 +1,134 @@
+@keyframes fromLeft{
+  0%{
+    opacity: 0;
+    transform: translate(-30%,0);
+  }
+  20% {
+    opacity: 0;
+    transform: translate(-30%,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes fromRight{
+  0%{
+    opacity: 0;
+    transform: translate(30%,0);
+  }
+  20% {
+    opacity: 0;
+    transform: translate(30%,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes fromBottomImg{
+  0%{
+    opacity: 0;
+    transform: translate(0,20%);
+  }
+  20% {
+    opacity: 0;
+    transform: translate(0,20%);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes bonus25{
+  0%{
+    opacity: 0;
+    transform: translate(-30%,0);
+  }
+  70% {
+    opacity: 0;
+    transform: translate(-30%,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes bonus4{
+  0%{
+    opacity: 0;
+    transform: translate(30%,0);
+  }
+  70% {
+    opacity: 0;
+    transform: translate(30%,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes fromBottomBtn{
+  0%{
+    opacity: 0;
+    transform: translate(0,20%) skew(-10deg);
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0,20%) skew(-10deg);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0) skew(-10deg);
+  }
+}
+
+@keyframes fromBottomInfo{
+  0%{
+    opacity: 0;
+    transform: translate(0,50%);
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0,50%);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes leftSmoke{
+  0%{
+    opacity: 0;
+    transform: translate(-30%,0);
+  }
+  70% {
+    opacity: 0;
+    transform: translate(-30%,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes rightSmoke{
+  0%{
+    opacity: 0;
+    transform: translate(30%,0);
+  }
+  70% {
+    opacity: 0;
+    transform: translate(30%,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
